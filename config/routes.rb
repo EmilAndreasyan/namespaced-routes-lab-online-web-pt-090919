@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   resources :songs
   
   namespace :preferences do
-    resources 
+    resources only: [:new]
   end
 
 end
